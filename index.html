@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman's Development Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar" id="name">Aman's Development Portfolio</div>
+        <div class="navbar" id="nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Skills</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="animate-box first-section">
+            <div class="animate-box-inner" id="left-box">
+                Hi There! My name is <span class="violet">Aman</span>. I am a passionate
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+            </div>
+            <div class="animate-box-inner" id="right-box">
+                <img src="imgbin_web-development-web-developer-web-design-software-developer-png.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="text-gray">What I have done so far!</span>
+            <p>My Education</p>
+            <div class="hr">
+                <div class="vertical">
+                    <img src="/pngwing.com.png" alt="#" class="education-logo">
+                    <p id="school-name">National School Kankinara</p>
+                    <p id="edu">Primary Education:<br> Class- UKG to 4 (2008-2012)</p>
+                </div>
+                <div class="vertical">
+                    <img src="/pngwing.com (1).png" alt="#" class="education-logo2">
+                    <p id="school-name2">H.C.K Jain Vidyalaya</p>
+                    <p id="edu2">Secondary Education:<br> Class- 5 to 10 (2013-2019)</p>
+                </div>
+                <div class="vertical">
+                    <img src="/boy-6204401_1280.png" alt="#" class="education-logo3">
+                    <p id="school-name3">Jagatdal Chashma-i-Rahamat High School</p>
+                    <p id="edu3">Higher Secondary Education:<br> Class- 11 to 12 (2019-2021)</p>
+                </div>
+                <div class="vertical">
+                    <img src="/—Pngtree—cartoon student going to college_6856754.png" alt="#" class="education-logo4">
+                    <p id="school-name4">Institute of Engineering & Management, Kolkata</p>
+                    <p id="edu4">Undergraduate Education:<br> B.Tech in ECE (2022-26)</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<span class="violet">Frontend Web Developer</span>', '<span class="violet">Frontend Web Designer</span>', 'aspiring <span class="violet">FullStack Developer</span>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
